@@ -33,7 +33,7 @@ public class HomePageTest2 extends TestBase {
 	public void verifyLoginLink() 
 	{
 		
-		hp.search("Firmino");
+		hp.search("Stevie G");
 		System.out.println(driver.getTitle());
 	}
 	
