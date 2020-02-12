@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite parallel="none" name="Failed suite [Suite]">
-  <test parallel="classes" name="Test(failed)">
+  <parameter name="browser" value="firefox"/>
+  <test parallel="classes" name="TestChrome(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="grid_docker.grid_docker.FirefoxTest1">
+      <class name="tests.HomePageTest2">
         <methods>
-          <include name="test"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- grid_docker.grid_docker.FirefoxTest1 -->
+      </class> <!-- tests.HomePageTest2 -->
+      <class name="tests.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifySearch"/>
+        </methods>
+      </class> <!-- tests.HomePageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- TestChrome(failed) -->
+  <test parallel="classes" name="TestFirefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests.HomePageTest2">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyLoginLink"/>
+        </methods>
+      </class> <!-- tests.HomePageTest2 -->
+      <class name="tests.HomePageTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.HomePageTest -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
 </suite> <!-- Failed suite [Suite] -->
