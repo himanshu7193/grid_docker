@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-12T07:29:29Z" name="Suite" finished-at="2020-02-12T07:29:37Z" duration-ms="8100">
+    <groups>
+    </groups>
+    <test started-at="2020-02-12T07:29:29Z" name="Test" finished-at="2020-02-12T07:29:37Z" duration-ms="8100">
+      <class name="grid_docker.grid_docker.FirefoxTest1">
+        <test-method signature="test()[pri:0, instance:grid_docker.grid_docker.FirefoxTest1@759d26fb]" started-at="2020-02-12T12:59:29Z" name="test" finished-at="2020-02-12T12:59:37Z" duration-ms="8079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- grid_docker.grid_docker.FirefoxTest1 -->
+      <class name="grid_docker.grid_docker.ChromeTest1">
+        <test-method signature="test()[pri:0, instance:grid_docker.grid_docker.ChromeTest1@3059cbc]" started-at="2020-02-12T12:59:29Z" name="test" finished-at="2020-02-12T12:59:31Z" duration-ms="2104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- grid_docker.grid_docker.ChromeTest1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
